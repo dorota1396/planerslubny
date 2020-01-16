@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorAccent"
+    tools:context=".StartActivity">
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="358dp"
+        android:layout_height="604dp"
+        android:layout_marginTop="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.679">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/name"
+                android:layout_width="match_parent"
+                android:layout_height="113dp"
+                android:layout_marginBottom="15dp"
+                android:gravity="center"
+                android:text="Witaj"
+                android:textColor="@color/colorText"
+                android:textColorHighlight="#F5F5F5"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/result"
+                android:layout_width="match_parent"
+                android:layout_height="59dp" />
+
+            <Button
+                android:id="@+id/goscie"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="false"
+                android:layout_marginLeft="73dp"
+                android:layout_marginTop="12sp"
+                android:layout_marginBottom="0dp"
+                android:background="@drawable/przycisk"
+
+                android:text="GOŚCIE"
+                android:textAllCaps="false"
+                android:textColor="#8D6A7D"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/budzet"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="73dp"
+                android:layout_marginTop="12sp"
+                android:layout_marginBottom="0dp"
+                android:background="@drawable/przycisk"
+
+                android:text="BUDŻET"
+                android:textAllCaps="false"
+                android:textColor="#8D6A7D"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/wykonawcy"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="73dp"
+                android:layout_marginTop="12sp"
+                android:layout_marginBottom="0dp"
+                android:background="@drawable/przycisk"
+
+                android:text="WYKONAWCY"
+                android:textAllCaps="false"
+                android:textColor="#8D6A7D"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/paniMloda"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="73dp"
+                android:layout_marginTop="12sp"
+                android:layout_marginBottom="0dp"
+                android:background="@drawable/przycisk"
+
+                android:text="PANI MŁODA"
+                android:textAllCaps="false"
+                android:textColor="#8D6A7D"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/panMlody"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="73dp"
+                android:layout_marginTop="12sp"
+                android:layout_marginBottom="0dp"
+                android:background="@drawable/przycisk"
+
+                android:text="PAN MŁODY"
+                android:textAllCaps="false"
+                android:textColor="#8D6A7D"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/inspiracje"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="73dp"
+                android:layout_marginTop="12sp"
+                android:layout_marginBottom="0dp"
+                android:background="@drawable/przycisk"
+
+                android:text="INSPIRACJE"
+                android:textAllCaps="false"
+                android:textColor="#8D6A7D"
+                android:textSize="20sp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+    <Button
+        android:id="@+id/btn_logout"
+        android:layout_width="94dp"
+        android:layout_height="39dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/przycisk"
+        android:text="WYLOGUJ"
+        android:textAllCaps="false"
+        android:textColor="#8D6A7D"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toTopOf="@+id/scrollView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.953"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
